@@ -32,8 +32,6 @@
 
 # MCU name
 MCU = attiny261
-#MCU = t261
-
 
 # Processor frequency.
 #     This will define a symbol, F_CPU, in all source code files equal to the 
@@ -42,17 +40,20 @@ MCU = attiny261
 #     automatically to create a 32-bit value in your source code.
 F_CPU = 8000000
 
-# Output format. (can be srec, ihex, binary)
-FORMAT = ihex
-
-
 # Target file name (without extension).
 TARGET = bla
 
 
+
+#----------------------------------------------------------------------------
+#----------------------------------------------------------------------------
+#----------------------------------------------------------------------------
+
 # List C source files here. (C dependencies are automatically generated.)
 SRC = $(TARGET).c
 
+# Output format. (can be srec, ihex, binary)
+FORMAT = ihex
 
 # List Assembler source files here.
 #     Make them always end in a capital .S.  Files ending in a lowercase .s

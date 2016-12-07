@@ -1269,10 +1269,10 @@ programmer
 #
 programmer
   id = "linuxspi";
-  desc = "Use Linux SPI device in /dev/spidev*";
+  desc = "Use Linux SPI device in /dev/spidev*.*";
   type = "linuxspi";
   reset = 25;
-  baudrate=400000;
+  baudrate=100000;
 ;
 
 # some ultra cheap programmers use bitbanging on the 
