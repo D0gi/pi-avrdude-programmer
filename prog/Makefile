@@ -361,7 +361,7 @@ program: $(TARGET).hex $(TARGET).eep
 	@echo ">>>>>>>"
 	@echo ">>>>>>> FIRST ERASE THE DEVICE/CHIP"
 	@echo ">>>>>>>"
-	$(AVRDUDE) $(AVRDUDE_FLAGS) -e
+	$(AVRDUDE) $(AVRDUDE_FLAGS) -e -s
 	@echo ">>>>>>>"
 	@echo ">>>>>>> NOW WRITE ON THE DEVICE/CHIP"
 	@echo ">>>>>>>"
