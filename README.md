@@ -10,7 +10,7 @@
 run:
 
 - `apt-get update && apt-get install gcc git-core make  bison autoconf flex avr-libc gcc-avr`
-- `git clone `https://github.com/D0gi/pi-avrdude-programmer.git
+- `git clone https://github.com/D0gi/pi-avrdude-programmer.git`
 - `cd avrdude`
 - `./bootstrap`
 - `./configure`
