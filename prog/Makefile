@@ -68,7 +68,7 @@ ASRC =
 # Optimization level, can be [0, 1, 2, 3, s]. 
 #     0 = turn off optimization. s = optimize for size.
 #     (Note: 3 is not always the best optimization level. See avr-libc FAQ.)
-OPT = s
+OPT = 3
 
 
 # Debugging format.
@@ -366,6 +366,20 @@ program: $(TARGET).hex $(TARGET).eep
 	@echo ">>>>>>> NOW WRITE ON THE DEVICE/CHIP"
 	@echo ">>>>>>>"
 	$(AVRDUDE) $(AVRDUDE_FLAGS) -D $(AVRDUDE_WRITE_FLASH) $(AVRDUDE_WRITE_EEPROM)
+	@echo ">>>>>>>"
+        @echo ">>>>>>>"
+        @echo ">>>>>>>"
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>" DISCONNECT ISP FOR TESTING PROGRAM
+        @echo ">>>>>>>"
+        @echo ">>>>>>>"
+        @echo ">>>>>>>"
+
 
 
 # Generate avr-gdb config/init file which does the following:
